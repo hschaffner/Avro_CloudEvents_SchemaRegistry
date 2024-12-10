@@ -1,0 +1,19 @@
+{
+  "type": "record",
+  "name": "avroMsg",
+  "namespace": "io.confluent.heinz",
+  "fields": [
+    {
+      "name": "first_name",
+      "type": "string"
+    },
+    {
+      "name": "last_name",
+      "type": "string"
+    },
+    {
+      "name": "customer_id",
+      "type": "int"
+    }
+  ]
+}
